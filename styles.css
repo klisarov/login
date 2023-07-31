@@ -1,0 +1,100 @@
+body {
+  font-family: 'JetBrains Mono', monospace;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1f1f1f;
+}
+
+.container {
+  text-align: center;
+  background-color: #2d2d2d;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 90%;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #a0a0a0;
+}
+
+input {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+  background-color: #2d2d2d;
+  color: #fff;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+button {
+  padding: 12px 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: #e74c3c;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+
+.container {
+  background-image: linear-gradient(to right, #2d2d2d, #1f1f1f);
+}
+
+h1 {
+  letter-spacing: 2px;
+}
+
+label {
+  letter-spacing: 1px;
+}
+
+button {
+  letter-spacing: 1px;
+}
+
+input::placeholder {
+  color: #a0a0a0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');

@@ -7,7 +7,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
 
   if (username === "admin" && password === "password") {
     // ako loginot e uspesen, prenasocuva na index fileot
-    window.location.href = "www.klisarov.me";
+    window.location.href = "https://www.klisarov.me";
   } else {
     // ako e pogresen username ili psw, se dava alert
     alert("Invalid username or password. Please try again.");

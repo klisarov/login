@@ -1,27 +1,28 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #1f1f1f;
 }
 
 .container {
   text-align: center;
-  background-color: #fff;
-  padding: 30px;
+  background-color: #2d2d2d;
+  padding: 40px;
   border-radius: 10px;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
   max-width: 400px;
   width: 90%;
 }
 
 h1 {
   margin-bottom: 30px;
-  color: #007bff;
+  color: #fff;
+  font-size: 30px;
 }
 
 form {
@@ -31,18 +32,20 @@ form {
 }
 
 label {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-size: 16px;
-  font-weight: bold;
+  color: #a0a0a0;
 }
 
 input {
   padding: 12px;
   margin-bottom: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #555;
   border-radius: 5px;
   width: 100%;
   font-size: 16px;
+  background-color: #2d2d2d;
+  color: #fff;
   transition: border-color 0.2s;
 }
 
@@ -71,3 +74,27 @@ button:hover {
   margin-top: 10px;
   font-size: 14px;
 }
+
+
+.container {
+  background-image: linear-gradient(to right, #2d2d2d, #1f1f1f);
+}
+
+h1 {
+  letter-spacing: 2px;
+}
+
+label {
+  letter-spacing: 1px;
+}
+
+button {
+  letter-spacing: 1px;
+}
+
+input::placeholder {
+  color: #a0a0a0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
